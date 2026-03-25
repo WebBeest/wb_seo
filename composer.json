@@ -1,0 +1,26 @@
+{
+	"name": "webbeest/seo",
+	"description": "SEO recipe for Drupal 11",
+	"type": "drupal-recipe",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Patrick C. Kannekens",
+			"homepage": "https://www.web-beest.nl",
+			"role": "Maintainer",
+			"email": "info@web-beest.nl"
+		}
+	],
+	"require": {
+		"drupal/favicons": "^1.0",
+		"drupal/gdpr": "^3.1",
+		"drupal/httpswww": "^2.1",
+		"drupal/metatag": "^2.2",
+		"drupal/pathauto": "^1.14",
+		"drupal/redirect": "^1.12",
+		"drupal/robotstxt": "^1.6",
+		"drupal/schema_metatag": "^3.0",
+		"drupal/yoast_seo": "^2.2",
+		"drupal/xmlsitemap": "^2.0"
+	}
+}

@@ -1,0 +1,31 @@
+name: "Web-Beest - SEO"
+description: "SEO modules for modern Drupal" 
+type: "SEO"
+install:
+  - favicons
+  - gdpr
+  - httpswww
+  - metatag
+  - pathauto
+  - redirect
+  - schema_metatag
+  - yoast_seo
+  - xmlsitemap
+config:
+  import:
+    favicons: '*'
+    gdpr: '*'
+    httpswww: '*'
+    metatag: '*'
+    pathauto: '*'
+    redirect: '*'
+    schema_metatag: '*'
+    yoast_seo: '*'
+    xmlsitemap: '*'
+  actions:
+    httpswww.settings:
+      enabled: 1
+      prefix: 'yes'
+      scheme: https
+  strict: false
+
