@@ -5,6 +5,7 @@ install:
   - favicons
   - gdpr
   - httpswww
+  - image
   - metatag
   - pathauto
   - redirect
@@ -22,11 +23,5 @@ config:
     schema_metatag: '*'
     yoast_seo: '*'
     xmlsitemap: '*'
-  actions:
-    httpswww.settings:
-      simpleConfigUpdate:
-        enabled: 1
-        prefix: 'yes'
-        scheme: https
   strict: false
 
