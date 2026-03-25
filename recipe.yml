@@ -24,8 +24,9 @@ config:
     xmlsitemap: '*'
   actions:
     httpswww.settings:
-      enabled: 1
-      prefix: 'yes'
-      scheme: https
+      simpleConfigUpdate:
+        enabled: 1
+        prefix: 'yes'
+        scheme: https
   strict: false
 
