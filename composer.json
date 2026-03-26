@@ -20,7 +20,9 @@
 		"drupal/redirect": "^1.12",
 		"drupal/robotstxt": "^1.6",
 		"drupal/schema_metatag": "^3.0",
-		"drupal/yoast_seo": "^2.2",
-		"drupal/xmlsitemap": "^2.0"
+		"drupal/webp": "^1.0@RC",
+		"drupal/xmlsitemap": "^2.0",
+		"drupal/yoast_seo": "^2.2"
+
 	}
 }

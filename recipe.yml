@@ -10,8 +10,9 @@ install:
   - pathauto
   - redirect
   - schema_metatag
-  - yoast_seo
+  - webp
   - xmlsitemap
+  - yoast_seo
 config:
   import:
     favicons: '*'
@@ -21,7 +22,8 @@ config:
     pathauto: '*'
     redirect: '*'
     schema_metatag: '*'
-    yoast_seo: '*'
+    webp: '*'
     xmlsitemap: '*'
+    yoast_seo: '*'
   strict: false
 
